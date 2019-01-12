@@ -1566,6 +1566,7 @@ static void *alsaMidiHandler( void *ptr )
           break;
         }
       }
+      doDecode = true;
       break;
 
     default:
